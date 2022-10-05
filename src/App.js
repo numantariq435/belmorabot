@@ -1,4 +1,4 @@
-import MessengerCustomerChat from 'react-messenger-customer-chat'
+import { MessengerChat } from 'react-messenger-chat-plugin'
 import './App.css'
 
 function App () {
@@ -7,10 +7,7 @@ function App () {
       <header className='App-header'>
         <p>BELMORABOT</p>
 
-        <MessengerCustomerChat
-          pageId='103856575835224'
-          appId='637122637933810'
-        />
+        <MessengerChat pageId='103856575835224' appId='637122637933810' />
       </header>
     </div>
   )
