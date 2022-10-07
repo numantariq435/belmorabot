@@ -58,7 +58,7 @@ function App () {
         </Accordion.Item>
       </Accordion>
 
-      <MessengerChat pageId='103856575835224' appId='637122637933810' themeColor={"#009ddc"} />
+      <MessengerChat pageId='103856575835224' appId='637122637933810' />
     </div>
   )
 }
